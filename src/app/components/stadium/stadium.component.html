@@ -1,0 +1,36 @@
+
+
+
+
+<div class="container mt-5">
+    <div *ngIf="stadium.stadium" class="row">
+
+        <div class="col-md-7">
+
+            <div class="my-5 text-end">
+                <a class="btn btn-secondary" routerLink="/">Back</a>
+            </div>
+    
+            <h2><strong>Name Stadium: </strong> {{ stadium.stadium.name }}</h2>
+            <img src="{{ stadium.stadium.image }}" class="img-fluid mb-4">
+
+            <div class="text-center my-4">
+                <button mat-raised-button color="primary" (click)="showAllDetails();">Show all details</button>
+            </div>
+            <mat-tab-group *ngIf="showDetails">
+                <mat-tab label="City stadium"> 
+                    <p class="text-left my-3">{{ stadium.stadium.city }}</p>
+                </mat-tab>
+                <mat-tab label="Ubicación del estadio">
+                    <p class="text-left my-3"><strong>Latitud:</strong> {{ stadium.stadium.lat }}</p>
+                    <p class="text-left my-3"><strong>Longitud:</strong> {{ stadium.stadium.lng }}</p>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+
+    
+    </div>
+    
+</div>
+
+  
