@@ -1,0 +1,113 @@
+{
+  "configVersion": 1,
+  "timestamp": 1654437110210,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.610b65b1e0625127.js",
+        "/manifest.webmanifest",
+        "/polyfills.d3c8208c6e2f9528.js",
+        "/runtime.2ad7f847d3c9b2a3.js",
+        "/styles.f26cdcb57409ceba.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/css/animate.css",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": [
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/e\\/e6\\/Luzhniki_Stadium%2C_Moscow\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/5\\/50\\/Stadium_Spartak_in_Moscow\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/a\\/ad\\/Spb_06-2017_img40_Krestovsky_Stadium\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/a\\/a4\\/Kaliningrad_stadium_-_2018-04-07\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/3\\/3a\\/Kazan_Arena_08-2016\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/9\\/90\\/Nizhny_Novgorod_Stadium_%28March_2018%29\\.jpg",
+        "http:\\/\\/img\\.fifa\\.com\\/image\\/upload\\/t_l4\\/d0mymt1ubl2pypmu3gn3\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/6\\/61\\/Construction_of_Volgograd_Arena_inside_04\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/4\\/45\\/Match_at_Mordovia_Arena_stadium\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/9\\/94\\/Rostov-Arens_%28april_2018%29_01\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/5\\/55\\/Fisht_Stadium_in_January_2018\\.jpg",
+        "https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons\\/d\\/d2\\/Estadio_Central_%28Ekaterinburg-arena%29\\.jpg"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "stadiums-api",
+      "patterns": [
+        "https:\\/\\/myfakeapi\\.com\\/api\\/football\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/css/animate.css": "2c6d1c4851293ff192e130af02787fbebca0c5a6",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "1a418688a1620c178b7767377618652db109d35d",
+    "/main.610b65b1e0625127.js": "db936060671918abb3df98f795f3202d5c604699",
+    "/manifest.webmanifest": "6171d19ef1c9da7bf3a29726e4363e495743a1fb",
+    "/polyfills.d3c8208c6e2f9528.js": "719479d83b97c1e9384ebd469973682432b692f8",
+    "/runtime.2ad7f847d3c9b2a3.js": "23b957fd8992ebce8a4d89a9fa85797cce40cbbf",
+    "/styles.f26cdcb57409ceba.css": "15675f4eafadd6fbe22d03e4b29f87edb0e9d4a2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
