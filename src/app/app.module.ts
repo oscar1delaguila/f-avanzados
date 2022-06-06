@@ -15,6 +15,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment'; 
+import { PrebootModule } from 'preboot';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { environment } from '../environments/environment';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    PrebootModule.withConfig({ appRoot: 'app-root' }),
     MatCardModule,
     AppRoutingModule,
     BrowserAnimationsModule,
